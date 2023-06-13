@@ -1,4 +1,4 @@
-module MINIMP5-SYNTAX
+module IMP5-SYNTAX
   imports INT-SYNTAX
   imports BOOL-SYNTAX
 
@@ -35,8 +35,8 @@ module MINIMP5-SYNTAX
 
 endmodule
 
-module MINIMP5
-  imports MINIMP5-SYNTAX
+module IMP5
+  imports IMP5-SYNTAX
   imports INT
   imports BOOL
 

@@ -2,7 +2,7 @@ module IMP5-SYNTAX
   imports INT-SYNTAX
   imports BOOL-SYNTAX
 
-  syntax Id2 ::= "x1" | "x2" | "x3" | "x4" | "x5"
+  syntax Id2 ::= "x1" | "x2" | "x3" | "x4" | "x5" | "ret"
   syntax AExp  ::= Int | Id2
                  | "-" Int                    [format(%1%2)]
                  | AExp "/" AExp              [left, seqstrict, color(pink)]
@@ -33,7 +33,7 @@ module IMP5-SYNTAX
   syntax Pgm ::= "int" Ids ";" Stmt           [format(%1 %2%3%n%4), colors(yellow,pink)]
   syntax Ids ::= List{Id2,","}                 [format(%1%2 %3)]
 
-  syntax Vars5 ::= Int "," Int "," Int "," Int "," Int
+  syntax Vars ::= Int "," Vars | Int
 
 endmodule
 
@@ -46,14 +46,15 @@ module IMP5
 
   configuration <T color="yellow">
                   <k color="green"> $PGM:Pgm </k>
-                  <s color="red"> ( 0 , 0 , 0 , 0 , 0 ):Vars5 </s>
+                  <s color="red"> ( 0 , 0 , 0 , 0 , 0 , 0 ):Vars </s>
                 </T>
 
-  rule <k> x1 => I ...</k> <s> I , _ , _ , _ , _ </s>
-  rule <k> x2 => I ...</k> <s> _ , I , _ , _ , _ </s>
-  rule <k> x3 => I ...</k> <s> _ , _ , I , _ , _ </s>
-  rule <k> x4 => I ...</k> <s> _ , _ , _ , I , _ </s>
-  rule <k> x5 => I ...</k> <s> _ , _ , _ , _ , I </s>
+  rule <k> x1 => I ...</k> <s> I , _ , _ , _ , _ , _ </s>
+  rule <k> x2 => I ...</k> <s> _ , I , _ , _ , _ , _ </s>
+  rule <k> x3 => I ...</k> <s> _ , _ , I , _ , _ , _ </s>
+  rule <k> x4 => I ...</k> <s> _ , _ , _ , I , _ , _ </s>
+  rule <k> x5 => I ...</k> <s> _ , _ , _ , _ , I , _ </s>
+  rule <k> ret => I ...</k> <s> _ , _ , _ , _ , _ , I </s>
 
   rule I1 / I2 => I1 /Int I2  requires I2 =/=Int 0
   rule I1 * I2 => I1 *Int I2
@@ -79,6 +80,7 @@ module IMP5
   rule <k> x3 = I:Int; => . ...</k> <s> _ , _ , ( _ => I ) , _ , _ </s>
   rule <k> x4 = I:Int; => . ...</k> <s> _ , _ , _ , ( _ => I ) , _ </s>
   rule <k> x5 = I:Int; => . ...</k> <s> _ , _ , _ , _ , ( _ => I ) </s>
+  rule <k> ret = I:Int; => . ...</k> <s> _ , _ , _ , _ , _, ( _ => I ) </s>
 
   rule S1:Stmt S2:Stmt => S1 ~> S2  [structural]
   rule if (true)  S else _ => S // requires C

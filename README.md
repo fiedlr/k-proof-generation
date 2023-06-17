@@ -23,7 +23,7 @@
 
     Finally, add K binaries to `PATH`:
     ```
-    export PATH=$(realpath deps/k/k-distribution/target/release/k/bin):$PATH`
+    export PATH=$(realpath deps/k/k-distribution/target/release/k/bin):$PATH
     ```
 
 4. Install Python prerequisites (NOTE: Python 3.7+ is required)
@@ -50,9 +50,13 @@ Following these steps to generate and verify the proof for `transfer.imp`.
 
 1. Generate the proof(s).
 
-   ```python3 -m scripts.prove_symbolic examples/csl23/blockchain/imp.k IMP examples/csl23/blockchain/transfer.imp --output proof-transfer```
+   ```python3 -m scripts.prove_symbolic examples/csl23/blockchain/imp.k IMP examples/csl23/blockchain/transfer.imp --output proof-transfer.mm```
 
    If you want the proof to be in a single file, add the `--standalone` flag.
+
+   For a reachability proof, run the following:
+
+   ```python3 -m scripts.prove_reachability examples/csl23/blockchain/imp.k IMP example/csl23/blockchain/transfer.spec.k SPEC --standalone -o examples/proof-transfer-spec.mm```
 
 2. Load the proofs to Metamath
 

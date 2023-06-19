@@ -36,7 +36,7 @@ fn main() {
     println!("Serializing target theorem");
     println!("{:?}", SystemTime::now());
 
-    let target_theorem: String = "th1".to_string();
+    let target_theorem: String = std::env::args().nth(2).expect("no theorem given");
 
     let serialized_target_theorem: Vec<u32> = to_vec(&target_theorem).unwrap();
 

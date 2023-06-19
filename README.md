@@ -107,6 +107,14 @@ for f in *; do metamath "read '$f'" "verify proof *" "exit" >> ../log.txt; done;
 
 The file `log.txt` in the parent directory contains all the logs from Metamath verification, including possible errors.
 
+## One-liner
+
+If you have `cargo install`'ed in `risc0-metamath` already, then the following one-liner should work in most cases:
+
+```sh
+bash ./gen_proofs.sh {CSL23_EXAMPLE_FOLDER} {EXAMPLE_IMP_FILE} {OUTPUT_FOLDER} {TARGET_THEOREM}
+```
+
 ## Current Examples
 
 - `examples/csl`: Examples for CSL

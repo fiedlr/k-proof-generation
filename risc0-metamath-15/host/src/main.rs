@@ -19,7 +19,7 @@ fn main() {
     println!("Reading metamath file");
     println!("{:?}", SystemTime::now());
 
-    let axiom_file = File::open("theory/mm-benchmarks/proof-svm5-goal.mm".clone()).expect("Failed to find file");
+    let axiom_file = File::open("goal.mm".clone()).expect("Failed to find file");
 
     let axiom_file_lines: Vec<String> = BufReader::new(axiom_file)
         .lines()
@@ -47,7 +47,7 @@ fn main() {
     // ExecutorEnv::builder(), which creates an ExecutorEnvBuilder. When you're
     // done adding input, call ExecutorEnvBuilder::build().
 
-    println!("Creating environment");
+    println!("Creating environment for goal.mm");
     println!("{:?}", SystemTime::now());
 
     // For example: let env = ExecutorEnv::builder().add_input(&vec).build();

@@ -16,17 +16,19 @@ use std::time::SystemTime;
 
 fn main() {
 
-    println!("Reading metamath file");
+    let path = std::env::args().nth(1).expect("no path given");
+
+    println!("Reading metamath file {:?}", path);
     println!("{:?}", SystemTime::now());
 
-    let axiom_file = File::open("goal.mm".clone()).expect("Failed to find file");
+    let axiom_file = File::open(path.clone()).expect("Failed to find file");
 
     let axiom_file_lines: Vec<String> = BufReader::new(axiom_file)
         .lines()
         .map(|l| l.expect("Could not parse line"))
         .collect();
 
-    println!("Serializing metamath file");
+    println!("Serializing metamath file {:?}", path);
     println!("{:?}", SystemTime::now());
 
     let serialized_file: Vec<u32> = to_vec(&axiom_file_lines).unwrap();
@@ -47,7 +49,7 @@ fn main() {
     // ExecutorEnv::builder(), which creates an ExecutorEnvBuilder. When you're
     // done adding input, call ExecutorEnvBuilder::build().
 
-    println!("Creating environment for goal.mm");
+    println!("Creating ZK environment");
     println!("{:?}", SystemTime::now());
 
     // For example: let env = ExecutorEnv::builder().add_input(&vec).build();

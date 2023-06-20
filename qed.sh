@@ -12,8 +12,8 @@ python3 -m scripts.prove_symbolic $1 $2 $3 --standalone --output $4
 # apply mm postcompression
 mm_compress $4
 
-# slice
-rm -r risc0-metamath-15/$3-sliced
+# slice into independent subproofs
+rm -r risc0-metamath-15/$(basename $4)-sliced
 python3 -m scripts.metamath-extract $4 risc0-metamath-15/$(basename $4)-sliced
 
 # zk

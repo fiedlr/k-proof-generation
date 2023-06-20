@@ -105,6 +105,7 @@ fn main() {
         prove_slice("simple2.mm".to_string(), "goal".to_string());
     });
 
+
     slice1.join().unwrap();
     slice2.join().unwrap();
 }

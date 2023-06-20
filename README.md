@@ -22,19 +22,19 @@
     flag `--no-backend-hints` for the `scripts.prove_symbolic` script.
 
     Finally, add K binaries to `PATH`:
-    ```
-    export PATH=$(realpath deps/k/k-distribution/target/release/k/bin):$PATH`
+    ```sh
+    export PATH=$(realpath deps/k/k-distribution/target/release/k/bin):$PATH
     ```
 
 4. Install Python prerequisites (NOTE: Python 3.7+ is required)
 
-    ```
+    ```sh
     python3 -m pip install -r requirements.txt
     ```
 
 5. Install Metamath for verification
 
-    ```
+    ```sh
     sudo apt-get install metamath
     ```
 
@@ -84,11 +84,11 @@ There are two generic techniques how to deal with this.
 
 We can apply a built-in Metamath compression to generated proofs, it often helps.
 
-For the CSL23 demo, the easiest way is to use `gen_proofs.sh`.
-The `gen_proofs.sh` generates the proof and then applies Metamath compression in a postprocessing stage:
+For the CSL23 demo, the easiest way is to use `qed.sh`.
+The `qed.sh` script generates the proof and then applies Metamath compression in a postprocessing stage:
 
 ```sh
-bash ./gen_proofs.sh {EXAMPLE_FOLDER_IN_CSL23} {IMP_FILE_TO_RUN} {OUTPUT_FILE_NAME}
+bash ./qed.sh {SEMANTICS_FILEPATH} {SEMANTICS_MODULE} {PROOF_FILEPATH} {OUTPUT_FOLDER}
 ```
 
 ### Slicing

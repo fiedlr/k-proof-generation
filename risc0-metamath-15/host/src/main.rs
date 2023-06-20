@@ -14,10 +14,10 @@ use std::io::BufRead;
 
 use std::time::SystemTime;
 
-fn main() {
+use std::thread;
+use std::time::Duration;
 
-    let path = std::env::args().nth(1).expect("no path given");
-
+fn prove_slice(path: String, target_theorem: String) {
     println!("Reading metamath file {:?}", path);
     println!("{:?}", SystemTime::now());
 
@@ -35,8 +35,6 @@ fn main() {
 
     println!("Serializing target theorem");
     println!("{:?}", SystemTime::now());
-
-    let target_theorem: String = std::env::args().nth(2).expect("no theorem given");
 
     let serialized_target_theorem: Vec<u32> = to_vec(&target_theorem).unwrap();
 
@@ -93,4 +91,20 @@ fn main() {
         "The ZK metamath verifier check succeeded"
     );
     println!("{:?}", SystemTime::now());
+}
+
+fn main() {
+    let slice1 = thread::spawn(|| {
+        let path = std::env::args().nth(1).expect("no path given");
+        let target_theorem: String = std::env::args().nth(2).expect("no theorem given");
+
+        prove_slice(path, target_theorem);
+    });
+
+    let slice2 = thread::spawn(|| {
+        prove_slice("simple2.mm".to_string(), "goal".to_string());
+    });
+
+    slice1.join().unwrap();
+    slice2.join().unwrap();
 }

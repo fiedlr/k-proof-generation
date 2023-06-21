@@ -10,11 +10,14 @@ mm_compress() {
 python3 -m scripts.prove_symbolic $1 $2 $3 --standalone --output $4
 
 # apply mm postcompression
-mm_compress $4
+#mm_compress $4
 
 # slice into independent subproofs
 rm -r risc0-metamath-15/$(basename $4)-sliced
-python3 -m scripts.metamath-extract $4 risc0-metamath-15/$(basename $4)-sliced
+python3 -m scripts.metamath-extract $4 risc0-metamath-15/$(basename $4)-sliced --abbreviate-lemma-names
+
+# compress slices
+for f in risc0-metamath-15/$(basename $4)-sliced/*; do mm_compress $f; done;
 
 # zk
 cd risc0-metamath-15

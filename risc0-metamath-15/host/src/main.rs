@@ -14,10 +14,13 @@ use std::io::BufRead;
 
 use std::time::SystemTime;
 
-fn main() {
+use std::thread;
+use std::time::Duration;
 
-    let path = std::env::args().nth(1).expect("no path given");
+use std::fs;
+use std::cmp;
 
+fn prove_slice(path: String, target_theorem: String) {
     println!("Reading metamath file {:?}", path);
     println!("{:?}", SystemTime::now());
 
@@ -35,8 +38,6 @@ fn main() {
 
     println!("Serializing target theorem");
     println!("{:?}", SystemTime::now());
-
-    let target_theorem: String = std::env::args().nth(2).expect("no theorem given");
 
     let serialized_target_theorem: Vec<u32> = to_vec(&target_theorem).unwrap();
 
@@ -93,4 +94,61 @@ fn main() {
         "The ZK metamath verifier check succeeded"
     );
     println!("{:?}", SystemTime::now());
+}
+
+fn process_batch(entries: Vec<_>, start: usize, limit: usize) {
+    for i in start..cmp::min(start + limit, entries.len()) {
+        let entry = &entries[i];
+        let file_name = entry.file_name();
+        let file_type = entry.file_type().expect("Failed to get file type");
+
+        // Check if the entry is a file
+        if file_type.is_file() {
+            let slice1 = thread::spawn(|| {
+                prove_slice(file_name, "".to_string())
+            });
+        }
+    }
+
+    for slice in slices {
+        slice.join().unwrap()
+    }
+}
+
+fn main() {
+    // Specify the directory path you want to iterate over
+    let path = std::env::args().nth(1).expect("no path given");
+    let limit: usize = std::env::args().nth(2).expect("no limit given");
+    let target_theorem: String = std::env::args().nth(3).expect("no theorem given");
+
+    // Read the directory and obtain the entries
+    let entries = fs::read_dir(path).expect("Failed to read directory");
+
+    // Convert the directory entries into a vector
+    let entries_vec: Vec<_> = entries
+        .filter_map(|entry| entry.ok())
+        .collect();
+
+    let mut counter = 0;
+
+    while counter < entries.len() {
+        println!("Batch");
+
+        batch(entries_vec, counter, limit);
+
+        counter = counter + limit;
+        println!("\n\n");
+    }
+
+    let slice1 = thread::spawn(|| {
+        prove_slice(path, target_theorem);
+    });
+
+    let slice2 = thread::spawn(|| {
+        prove_slice("simple2.mm".to_string(), "goal".to_string());
+    });
+
+
+    slice1.join().unwrap();
+    slice2.join().unwrap();
 }

@@ -6,16 +6,16 @@ x3 = 3;
 x4 = 4;
 x5 = 5;
 
-ret = 0;
 // ret + w_i * x_i
-ret = ret + (-1 * x1);
-ret = ret + (-2 * x2);
-ret = ret + (-3 * x3);
-ret = ret + (-4 * x4);
-ret = ret + (-5 * x5);
+ret = 0;
+ret = ret + (1 * x1);
+ret = ret + (2 * x2);
+ret = ret + (1 * x3);
+ret = ret + (3 * x4);
+ret = ret + (1 * x5);
 
 // ret - b
-if (ret - 1 > 0) {
+if (0 < ret - 3) {
   ret = 1;
 } else {
   ret = -1;

@@ -215,18 +215,23 @@ def gen_proof(args: argparse.Namespace) -> None:
     ### step 2. generate snapshots and rewriting information
     print(f"- generating snapshots")
     kore_definition = os.path.join(kompiled_dir, "definition.kore")
-    task_path = os.path.join(cache_dir, f"rewriting-task-{pgm_name}.yml")
 
-    if check_dependency_change([task_path], [kompile_timestamp, pgm]):
-        with tempfile.NamedTemporaryFile(dir=cache_dir) as tmp_file:
-            if no_backend_hints:
-                task_obj = gen_task_legacy(os.path.dirname(kompiled_dir), pgm)
-                yaml.dump(task_obj, tmp_file)
-            else:
-                gen_task(os.path.dirname(kompiled_dir), tmp_file.name, pgm, kore_definition, module)
+    if args.yaml_file is None:
+        task_path = os.path.join(cache_dir, f"rewriting-task-{pgm_name}.yml")
 
-            # commit the final task file
-            shutil.copy(tmp_file.name, task_path)
+        if check_dependency_change([task_path], [kompile_timestamp, pgm]):
+            with tempfile.NamedTemporaryFile(dir=cache_dir) as tmp_file:
+                if no_backend_hints:
+                    task_obj = gen_task_legacy(os.path.dirname(kompiled_dir), pgm)
+                    yaml.dump(task_obj, tmp_file)
+                else:
+                    gen_task(os.path.dirname(kompiled_dir), tmp_file.name, pgm, kore_definition, module)
+
+                # commit the final task file
+                shutil.copy(tmp_file.name, task_path)
+    else:
+        print(f"- skipped, using the pre-compiled task file")
+        task_path = args.yaml_file
 
     ### step 3. generate proof object
     print(f"- generating proof")
@@ -255,6 +260,10 @@ def main() -> None:
     parser.add_argument(
         "--kompiled-dir",
         help="Use an existing compiled directory instead of rekompiling",
+    )
+    parser.add_argument(
+        "--yaml-file",
+        help="Use a pre-generated YAML proof hint"
     )
     set_additional_flags(parser)
     args = parser.parse_args()

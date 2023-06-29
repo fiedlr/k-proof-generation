@@ -18,7 +18,7 @@ use alloc::collections::BTreeSet;
 use alloc::collections::VecDeque;
 // use alloc::format;
 use alloc::rc::Rc;
-use alloc::string::String;
+use alloc::string::{String, ToString};
 use alloc::vec;
 use alloc::vec::Vec;
 use core::cmp::max;
@@ -53,7 +53,7 @@ impl Tokens {
         // println!("inside read function with state {:?}", self);
         while self.token_buffer.is_empty() {
             //println!("Buffer is empty, refilling");
-            
+
             let result = self.lines_buffer.pop_front();
             // let result: Option<String> = env::read();
 
@@ -814,4 +814,5 @@ fn main() {
     env::commit(&*theorem_hash);
 
     // env::commit(&some_theorem);
+    env::log(&env::get_cycle_count().to_string());
 }

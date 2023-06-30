@@ -1,5 +1,5 @@
-$c 4B4 Ngk Lwk #Symbol 7h4 DBE GBY 8Q4 zw xwM pgg vA4 #Pattern 0Q4 Ex0 rwg xB4 tQM Wgk 0h4 #Variable DR4 SwE 0hU PQk #SetVariable 6hU vR4 4w #ElementVariable IQE qxs xQg 8hw cBQ ww4 2R4 kBM zBA XBI lSA 1wk RAk Tw 1CA wQM -g4 zBI 5x4 -QM rgk ( twM LAQ ewk yx4 IAQ 9R4 Hg8 3BA Kw8 lAk 8wk 7Ak 7BI ) $.
-$v CQ qwg DQ Bw oAg Cw GQ sgg $.
+$c lAk Wgk yg4 Xx8 RAk IAQ vA4 tQ4 tQM xwM KBQ who PQk ahU SwE JBw vx0 Axw 5Qk 4w zw tgg PBU 1RA -QM jh0 #Symbol wQM sR0 Ngk 0Ak LAQ Tw nB0 uB0 xRA 2xw ewk qh0 #ElementVariable JA8 lR0 ) twM 5RI JBU #Pattern IQE 6g4 pwk vQg 9w4 ox0 7Ak VRI nh8 hx0 Lwk #Variable 0Qg Fw8 BRE ( xRI #SetVariable WBM $.
+$v Bw DQ Cw nwg nQg mwg CQ GQ $.
 Bg $f #Pattern Bw $.
 CA $f #Pattern CQ $.
 Cg $f #Pattern Cw $.
@@ -28,12 +28,12 @@ ${ 3Qc $e zw ( Tw GQ ( SwE CQ Bw ) ) $.
    4Ac $e zw ( Tw GQ ( tQM Bw ( -QM Bw CQ Cw ) ) ) $.
    4Qc $e zw ( Tw GQ ( tQM Bw ( -QM Bw Cw DQ ) ) ) $.
    4gc $a zw ( Tw GQ ( tQM Bw ( -QM Bw CQ DQ ) ) ) $. $}
-nwg $f #Pattern oAg $.
-pQg $a #Pattern pgg $.
-qgg $f #Pattern qwg $.
-rgg $a #Pattern ( rwg oAg qwg ) $.
-sQg $f #Pattern sgg $.
-xAg $a #Pattern xQg $.
+mgg $f #Pattern mwg $.
+nAg $f #Pattern nQg $.
+ngg $f #Pattern nwg $.
+tQg $a #Pattern tgg $.
+vAg $a #Pattern ( vQg mwg nQg ) $.
+0Ag $a #Pattern 0Qg $.
 Lgk $a #Pattern Lwk $.
 NQk $a #Pattern Ngk $.
 PAk $a #Pattern PQk $.
@@ -41,240 +41,53 @@ Qwk $a #Pattern RAk $.
 WQk $a #Pattern Wgk $.
 egk $a #Pattern ewk $.
 kwk $a #Pattern lAk $.
-rQk $a #Pattern rgk $.
-1gk $a #Pattern 1wk $.
+pgk $a #Pattern pwk $.
+zwk $a #Pattern 0Ak $.
+5Ak $a #Pattern 5Qk $.
 6wk $a #Pattern 7Ak $.
-8gk $a #Pattern 8wk $.
+tA4 $a #Pattern tQ4 $.
 uw4 $a #Pattern vA4 $.
-wg4 $a #Pattern ww4 $.
-0A4 $a #Pattern ( 0Q4 oAg qwg ) $.
-3Q4 $a zw ( Tw ( 4w ( SwE oAg Lwk ) ( SwE qwg PQk ) ) ( SwE ( 0Q4 oAg qwg ) 7Ak ) ) $.
-8A4 $a #Pattern ( 8Q4 oAg ) $.
--Q4 $a #Pattern ( -g4 oAg qwg ) $.
-Cg8 $a zw ( Tw ( 4w ( SwE oAg 7Ak ) ( SwE qwg RAk ) ) ( SwE ( -g4 oAg qwg ) Ngk ) ) $.
-HQ8 $a #Pattern ( Hg8 oAg ) $.
-Kg8 $a #Pattern ( Kw8 oAg ) $.
-yxA $a #Pattern ( zBA oAg qwg ) $.
-2xA $a #Pattern ( 3BA oAg qwg ) $.
-CxE $a #Pattern ( DBE oAg qwg ) $.
-WxI $a #Pattern ( XBI oAg qwg ) $.
-yxI $a #Pattern ( zBI oAg qwg ) $.
-6xI $a #Pattern ( 7BI oAg qwg ) $.
-jxM $a #Pattern ( kBM oAg qwg ) $.
-bxQ $a #Pattern ( cBQ oAg qwg ) $.
-0RU $a #Pattern ( 0hU oAg qwg sgg ) $.
-6RU $a #Pattern ( 6hU oAg ) $.
-FxY $a #Pattern ( GBY oAg qwg ) $.
-qhs $a #Pattern ( qxs oAg ) $.
-8Rw $a #Pattern 8hw $.
-Eh0 $a #Pattern Ex0 $.
-DB4 $a #Pattern DR4 $.
-vB4 $a #Pattern vR4 $.
-wx4 $a #Pattern xB4 $.
-yh4 $a #Pattern yx4 $.
-0R4 $a #Pattern 0h4 $.
-2B4 $a #Pattern 2R4 $.
-3x4 $a #Pattern 4B4 $.
-5h4 $a #Pattern 5x4 $.
-7R4 $a #Pattern 7h4 $.
-9B4 $a #Pattern 9R4 $.
-.R4 $a zw ( Tw IQE ( SwE ( twM Ngk ) Ngk ) ) $.
-Kx8 $a zw ( Tw IQE ( SwE ( 8Q4 ( IAQ rgk 8hw ) ) RAk ) ) $.
-lCA $a #Pattern lSA $.
-0yA $a #Pattern 1CA $.
-4CA $a zw ( Tw IQE ( SwE ( Hg8 ( rwg ( LAQ 8wk pgg ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) xQg ) ) Lwk ) ) $.
-4yA $a zw ( Tw IQE ( SwE ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk 8hw ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) PQk ) ) $.
-5CA $a zw ( Tw IQE ( SwE ( Hg8 xQg ) Lwk ) ) $.
-5yA $a zw ( Tw IQE ( SwE ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk Ex0 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) PQk ) ) $.
-7CA $a zw ( Tw IQE ( SwE ( 6hU ( 7BI ww4 ( cBQ ( LAQ lAk pgg ( IAQ lAk DR4 ) ) ( LAQ 1wk pgg ( GBY ( 3BA ( IAQ ewk 9R4 ) ( 3BA ( IAQ ewk 2R4 ) ( 3BA ( IAQ ewk vR4 ) ( 3BA ( IAQ ewk 7h4 ) ( 3BA ( IAQ ewk xB4 ) vA4 ) ) ) ) ) ( kBM ( kBM ( kBM ( kBM ( XBI ( IAQ ewk 9R4 ) ( LAQ rgk Wgk ( IAQ rgk yx4 ) ) ) ( XBI ( IAQ ewk 2R4 ) ( LAQ rgk Wgk ( IAQ rgk 0h4 ) ) ) ) ( XBI ( IAQ ewk vR4 ) ( LAQ rgk Wgk ( IAQ rgk 5x4 ) ) ) ) ( XBI ( IAQ ewk 7h4 ) ( LAQ rgk Wgk ( IAQ rgk 4B4 ) ) ) ) ( 0hU ( zBI ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ( LAQ ewk Wgk ( IAQ ewk vR4 ) ) ) ( qxs ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk 8hw ) ) ) ) ( qxs ( kBM ( kBM ( XBI ( IAQ ewk vR4 ) ( DBE ( LAQ ewk Wgk ( IAQ ewk vR4 ) ) ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ) ) ( XBI ( IAQ ewk 7h4 ) ( zBA ( LAQ ewk Wgk ( IAQ ewk 7h4 ) ) ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ) ) ) ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) ) ) ) ) ) ) ) ) Ngk ) ) $.
-EzY $a zw ( Tw IQE ( tQM Ngk ( -QM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 6hU ( 7BI ww4 ( cBQ ( LAQ lAk pgg ( IAQ lAk DR4 ) ) ( LAQ 1wk pgg ( GBY ( 3BA ( IAQ ewk 9R4 ) ( 3BA ( IAQ ewk 2R4 ) ( 3BA ( IAQ ewk vR4 ) ( 3BA ( IAQ ewk 7h4 ) ( 3BA ( IAQ ewk xB4 ) vA4 ) ) ) ) ) ( kBM ( kBM ( kBM ( kBM ( XBI ( IAQ ewk 9R4 ) ( LAQ rgk Wgk ( IAQ rgk yx4 ) ) ) ( XBI ( IAQ ewk 2R4 ) ( LAQ rgk Wgk ( IAQ rgk 0h4 ) ) ) ) ( XBI ( IAQ ewk vR4 ) ( LAQ rgk Wgk ( IAQ rgk 5x4 ) ) ) ) ( XBI ( IAQ ewk 7h4 ) ( LAQ rgk Wgk ( IAQ rgk 4B4 ) ) ) ) ( 0hU ( zBI ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ( LAQ ewk Wgk ( IAQ ewk vR4 ) ) ) ( qxs ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk 8hw ) ) ) ) ( qxs ( kBM ( kBM ( XBI ( IAQ ewk vR4 ) ( DBE ( LAQ ewk Wgk ( IAQ ewk vR4 ) ) ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ) ) ( XBI ( IAQ ewk 7h4 ) ( zBA ( LAQ ewk Wgk ( IAQ ewk 7h4 ) ) ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ) ) ) ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) ) ) ) ) ) ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( -g4 ( 0Q4 ( Hg8 ( rwg ( LAQ 8wk pgg ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) xQg ) ) ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk 8hw ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) ) ( 8Q4 ( IAQ rgk 8hw ) ) ) ) ) ) ) $.
-PTY $a zw ( Tw IQE ( tQM Ngk ( -QM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( -g4 ( 0Q4 ( Hg8 ( rwg ( LAQ 8wk pgg ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) xQg ) ) ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk 8hw ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) ) ( 8Q4 ( IAQ rgk 8hw ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( -g4 ( 0Q4 ( Hg8 xQg ) ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk Ex0 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) ) ( 8Q4 ( IAQ rgk 8hw ) ) ) ) ) ) ) $.
-YzY $a zw ( Tw IQE ( tQM Ngk ( xwM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( -g4 ( 0Q4 ( Hg8 ( rwg ( LAQ 8wk pgg ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) xQg ) ) ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk 8hw ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) ) ( 8Q4 ( IAQ rgk 8hw ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( -g4 ( 0Q4 ( Hg8 ( rwg ( LAQ 8wk pgg ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) xQg ) ) ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk 8hw ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) ) ( 8Q4 ( IAQ rgk 8hw ) ) ) ) ) ) ) $.
-${ goal $p zw ( Tw IQE ( tQM Ngk ( -QM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 6hU ( 7BI ww4 ( cBQ ( LAQ lAk pgg ( IAQ lAk DR4 ) ) ( LAQ 1wk pgg ( GBY ( 3BA ( IAQ ewk 9R4 ) ( 3BA ( IAQ ewk 2R4 ) ( 3BA ( IAQ ewk vR4 ) ( 3BA ( IAQ ewk 7h4 ) ( 3BA ( IAQ ewk xB4 ) vA4 ) ) ) ) ) ( kBM ( kBM ( kBM ( kBM ( XBI ( IAQ ewk 9R4 ) ( LAQ rgk Wgk ( IAQ rgk yx4 ) ) ) ( XBI ( IAQ ewk 2R4 ) ( LAQ rgk Wgk ( IAQ rgk 0h4 ) ) ) ) ( XBI ( IAQ ewk vR4 ) ( LAQ rgk Wgk ( IAQ rgk 5x4 ) ) ) ) ( XBI ( IAQ ewk 7h4 ) ( LAQ rgk Wgk ( IAQ rgk 4B4 ) ) ) ) ( 0hU ( zBI ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ( LAQ ewk Wgk ( IAQ ewk vR4 ) ) ) ( qxs ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk 8hw ) ) ) ) ( qxs ( kBM ( kBM ( XBI ( IAQ ewk vR4 ) ( DBE ( LAQ ewk Wgk ( IAQ ewk vR4 ) ) ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ) ) ( XBI ( IAQ ewk 7h4 ) ( zBA ( LAQ ewk Wgk ( IAQ ewk 7h4 ) ) ( LAQ ewk Wgk ( IAQ ewk 2R4 ) ) ) ) ) ( XBI ( IAQ ewk xB4 ) ( LAQ rgk Wgk ( IAQ rgk Ex0 ) ) ) ) ) ) ) ) ) ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( -g4 ( 0Q4 ( Hg8 xQg ) ( Kw8 ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk xB4 ) ) ( LAQ rgk pgg ( IAQ rgk Ex0 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk vR4 ) ) ( LAQ rgk pgg ( IAQ rgk lSA ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 9R4 ) ) ( LAQ rgk pgg ( IAQ rgk yx4 ) ) ) ( 7BI ( cBQ ( LAQ ewk pgg ( IAQ ewk 7h4 ) ) ( LAQ rgk pgg ( IAQ rgk 1CA ) ) ) ( cBQ ( LAQ ewk pgg ( IAQ ewk 2R4 ) ) ( LAQ rgk pgg ( IAQ rgk 0h4 ) ) ) ) ) ) ) ) ) ( 8Q4 ( IAQ rgk 8hw ) ) ) ) ) ) ) $=
-  NQk NQk NQk NQk uwM NQk uwM wAM wg4 kwk pQg kwk DB4 HwQ KwQ 1gk pQg egk 9B4
-  HwQ egk 2B4 HwQ egk vB4 HwQ egk 7R4 HwQ egk wx4 HwQ uw4 2xA 2xA 2xA 2xA 2xA
-  egk 9B4 HwQ rQk WQk rQk yh4 HwQ KwQ WxI egk 2B4 HwQ rQk WQk rQk 0R4 HwQ KwQ
-  WxI jxM egk vB4 HwQ rQk WQk rQk 5h4 HwQ KwQ WxI jxM egk 7R4 HwQ rQk WQk rQk
-  3x4 HwQ KwQ WxI jxM egk WQk egk 2B4 HwQ KwQ egk WQk egk vB4 HwQ KwQ yxI egk
-  wx4 HwQ rQk WQk rQk 8Rw HwQ KwQ WxI qhs egk vB4 HwQ egk WQk egk vB4 HwQ KwQ
-  egk WQk egk 2B4 HwQ KwQ CxE WxI egk 7R4 HwQ egk WQk egk 7R4 HwQ KwQ egk WQk
-  egk 2B4 HwQ KwQ yxA WxI jxM egk wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI jxM qhs
-  0RU jxM FxY KwQ bxQ 6xI 6RU wAM NQk NQk NQk uwM NQk uwM wAM 8gk pQg egk wx4
-  HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk
-  pQg rQk 0yA HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ
-  egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ
-  rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ
-  bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 wAM NQk NQk NQk uwM NQk uwM
-  wAM xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk pQg egk
-  vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk
-  yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg
-  egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw
-  HwQ 8A4 -Q4 wAM IAE IAE NQk NQk uwM NQk uwM wAM NQk SgE wg4 kwk pQg kwk DB4
-  HwQ KwQ 1gk pQg egk 9B4 HwQ egk 2B4 HwQ egk vB4 HwQ egk 7R4 HwQ egk wx4 HwQ
-  uw4 2xA 2xA 2xA 2xA 2xA egk 9B4 HwQ rQk WQk rQk yh4 HwQ KwQ WxI egk 2B4 HwQ
-  rQk WQk rQk 0R4 HwQ KwQ WxI jxM egk vB4 HwQ rQk WQk rQk 5h4 HwQ KwQ WxI jxM
-  egk 7R4 HwQ rQk WQk rQk 3x4 HwQ KwQ WxI jxM egk WQk egk 2B4 HwQ KwQ egk WQk
-  egk vB4 HwQ KwQ yxI egk wx4 HwQ rQk WQk rQk 8Rw HwQ KwQ WxI qhs egk vB4 HwQ
-  egk WQk egk vB4 HwQ KwQ egk WQk egk 2B4 HwQ KwQ CxE WxI egk 7R4 HwQ egk WQk
-  egk 7R4 HwQ KwQ egk WQk egk 2B4 HwQ KwQ yxA WxI jxM egk wx4 HwQ rQk WQk rQk
-  Eh0 HwQ KwQ WxI jxM qhs 0RU jxM FxY KwQ bxQ 6xI 6RU NQk SgE 4g NQk NQk NQk
-  uwM NQk uwM wAM wg4 kwk pQg kwk DB4 HwQ KwQ 1gk pQg egk 9B4 HwQ egk 2B4 HwQ
-  egk vB4 HwQ egk 7R4 HwQ egk wx4 HwQ uw4 2xA 2xA 2xA 2xA 2xA egk 9B4 HwQ rQk
-  WQk rQk yh4 HwQ KwQ WxI egk 2B4 HwQ rQk WQk rQk 0R4 HwQ KwQ WxI jxM egk vB4
-  HwQ rQk WQk rQk 5h4 HwQ KwQ WxI jxM egk 7R4 HwQ rQk WQk rQk 3x4 HwQ KwQ WxI
-  jxM egk WQk egk 2B4 HwQ KwQ egk WQk egk vB4 HwQ KwQ yxI egk wx4 HwQ rQk WQk
-  rQk 8Rw HwQ KwQ WxI qhs egk vB4 HwQ egk WQk egk vB4 HwQ KwQ egk WQk egk 2B4
-  HwQ KwQ CxE WxI egk 7R4 HwQ egk WQk egk 7R4 HwQ KwQ egk WQk egk 2B4 HwQ KwQ
-  yxA WxI jxM egk wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI jxM qhs 0RU jxM FxY KwQ
-  bxQ 6xI 6RU wAM NQk SgE IAE NQk NQk uwM NQk uwM wAM NQk SgE wg4 kwk pQg kwk
-  DB4 HwQ KwQ 1gk pQg egk 9B4 HwQ egk 2B4 HwQ egk vB4 HwQ egk 7R4 HwQ egk wx4
-  HwQ uw4 2xA 2xA 2xA 2xA 2xA egk 9B4 HwQ rQk WQk rQk yh4 HwQ KwQ WxI egk 2B4
-  HwQ rQk WQk rQk 0R4 HwQ KwQ WxI jxM egk vB4 HwQ rQk WQk rQk 5h4 HwQ KwQ WxI
-  jxM egk 7R4 HwQ rQk WQk rQk 3x4 HwQ KwQ WxI jxM egk WQk egk 2B4 HwQ KwQ egk
-  WQk egk vB4 HwQ KwQ yxI egk wx4 HwQ rQk WQk rQk 8Rw HwQ KwQ WxI qhs egk vB4
-  HwQ egk WQk egk vB4 HwQ KwQ egk WQk egk 2B4 HwQ KwQ CxE WxI egk 7R4 HwQ egk
-  WQk egk 7R4 HwQ KwQ egk WQk egk 2B4 HwQ KwQ yxA WxI jxM egk wx4 HwQ rQk WQk
-  rQk Eh0 HwQ KwQ WxI jxM qhs 0RU jxM FxY KwQ bxQ 6xI 6RU NQk SgE IAE NQk uwM
-  NQk SgE NQk uwM NQk SgE 4g NQk NQk uwM NQk uwM wAM NQk SgE IAE NQk uwM NQk
-  SgE NQk uwM NQk SgE .R4 .R4 wgE NQk NQk uwM NQk uwM JwU mAE 7CA wgE NQk NQk
-  NQk uwM NQk uwM wAM wg4 kwk pQg kwk DB4 HwQ KwQ 1gk pQg egk 9B4 HwQ egk 2B4
-  HwQ egk vB4 HwQ egk 7R4 HwQ egk wx4 HwQ uw4 2xA 2xA 2xA 2xA 2xA egk 9B4 HwQ
-  rQk WQk rQk yh4 HwQ KwQ WxI egk 2B4 HwQ rQk WQk rQk 0R4 HwQ KwQ WxI jxM egk
-  vB4 HwQ rQk WQk rQk 5h4 HwQ KwQ WxI jxM egk 7R4 HwQ rQk WQk rQk 3x4 HwQ KwQ
-  WxI jxM egk WQk egk 2B4 HwQ KwQ egk WQk egk vB4 HwQ KwQ yxI egk wx4 HwQ rQk
-  WQk rQk 8Rw HwQ KwQ WxI qhs egk vB4 HwQ egk WQk egk vB4 HwQ KwQ egk WQk egk
-  2B4 HwQ KwQ CxE WxI egk 7R4 HwQ egk WQk egk 7R4 HwQ KwQ egk WQk egk 2B4 HwQ
-  KwQ yxA WxI jxM egk wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI jxM qhs 0RU jxM FxY
-  KwQ bxQ 6xI 6RU JwU mAE IAE NQk NQk uwM NQk uwM wAM NQk SgE 8gk pQg egk wx4
-  HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk
-  pQg rQk 0yA HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ
-  egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ
-  rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ
-  bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 NQk SgE 4g NQk NQk NQk uwM
-  NQk uwM wAM 8gk pQg egk wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8
-  egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ
-  rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ
-  bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ
-  KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4
-  wAM NQk SgE IAE NQk NQk uwM NQk uwM wAM NQk SgE 8gk pQg egk wx4 HwQ rQk WQk
-  rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA
-  HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk
-  vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk
-  yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI
-  6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 NQk SgE IAE NQk uwM NQk SgE NQk uwM NQk
-  SgE 4g NQk NQk uwM NQk uwM wAM NQk SgE IAE NQk uwM NQk SgE NQk uwM NQk SgE
-  .R4 .R4 wgE NQk NQk uwM NQk uwM JwU mAE IAE 8gk pQg egk wx4 HwQ rQk WQk rQk
-  Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ
-  KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4
-  HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4
-  HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI
-  6xI Kg8 0A4 6wk SgE rQk 8Rw HwQ 8A4 Qwk SgE 4g 8gk pQg egk wx4 HwQ rQk WQk
-  rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA
-  HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk
-  vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk
-  yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI
-  6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 NQk SgE IAE 8gk pQg egk wx4 HwQ rQk WQk
-  rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA
-  HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk
-  vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk
-  yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI
-  6xI 6xI Kg8 0A4 6wk SgE rQk 8Rw HwQ 8A4 Qwk SgE IAE 8gk pQg egk wx4 HwQ rQk
-  WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 Lgk SgE egk pQg egk 7R4 HwQ KwQ rQk
-  pQg rQk 0yA HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ
-  egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ
-  rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ
-  bxQ 6xI 6xI 6xI 6xI Kg8 PAk SgE 4g 8gk pQg egk wx4 HwQ rQk WQk rQk Eh0 HwQ
-  KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ
-  egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ
-  rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ
-  bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8
-  0A4 6wk SgE IAE 8gk pQg egk wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg
-  HQ8 Lgk SgE egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk
-  wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk
-  lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg
-  egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 PAk SgE 4CA
-  4yA wgE 8gk pQg egk wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk
-  pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk
-  pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ
-  egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ
-  rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 3Q4 mAE Kx8 wgE 8gk pQg egk
-  wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ
-  rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ
-  bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ
-  KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ
-  KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 Cg8 mAE wgE NQk NQk NQk uwM
-  NQk uwM wAM 8gk pQg egk wx4 HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8
-  egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk wx4 HwQ KwQ
-  rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ
-  bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 2B4 HwQ
-  KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4
-  JwU mAE IAE NQk NQk uwM NQk uwM wAM NQk SgE xAg HQ8 egk pQg egk wx4 HwQ KwQ
-  rQk pQg rQk Eh0 HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ
-  bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ
-  KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ
-  KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 NQk SgE 4g NQk NQk NQk
-  uwM NQk uwM wAM xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ
-  egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ
-  rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ
-  bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8
-  0A4 rQk 8Rw HwQ 8A4 -Q4 wAM NQk SgE IAE NQk NQk uwM NQk uwM wAM NQk SgE xAg
-  HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk pQg egk vB4 HwQ
-  KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ
-  KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk 2B4
-  HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4
-  -Q4 NQk SgE IAE NQk uwM NQk SgE NQk uwM NQk SgE 4g NQk NQk uwM NQk uwM wAM
-  NQk SgE IAE NQk uwM NQk SgE NQk uwM NQk SgE .R4 .R4 wgE NQk NQk uwM NQk uwM
-  JwU mAE IAE xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk
-  pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk
-  pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ
-  egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4
-  6wk SgE rQk 8Rw HwQ 8A4 Qwk SgE 4g xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg
-  rQk Eh0 HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk
-  pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk
-  pQg rQk 0yA HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ
-  6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 NQk SgE IAE xAg HQ8 egk pQg egk
-  wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk
-  lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg
-  egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg
-  rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 6wk SgE rQk 8Rw HwQ 8A4 Qwk SgE
-  IAE xAg HQ8 Lgk SgE egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk
-  pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk
-  pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ
-  egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 PAk
-  SgE 4g xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk pQg
-  egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg
-  rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk
-  pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 6wk
-  SgE IAE xAg HQ8 Lgk SgE egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ
-  egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ
-  rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ
-  bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8
-  PAk SgE 5CA 5yA wgE xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ
-  bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ
-  KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ
-  KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI
-  Kg8 3Q4 mAE Kx8 wgE xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ
-  bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ
-  KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ
-  KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI
-  Kg8 0A4 rQk 8Rw HwQ 8A4 Cg8 mAE wgE NQk NQk NQk uwM NQk uwM wAM xAg HQ8 egk
-  pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk
-  pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ
-  egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ
-  rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 JwU
-  mAE EzY NQk NQk NQk NQk uwM NQk uwM wAM 8gk pQg egk wx4 HwQ rQk WQk rQk Eh0
-  HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ
-  bxQ egk pQg egk wx4 HwQ KwQ rQk pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4 HwQ
-  KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ
-  KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI
-  Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 wAM NQk NQk NQk uwM NQk uwM wAM 8gk pQg egk wx4
-  HwQ rQk WQk rQk Eh0 HwQ KwQ WxI KwQ xAg rgg HQ8 egk pQg egk wx4 HwQ KwQ rQk
-  pQg rQk 8Rw HwQ KwQ bxQ egk pQg egk vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ
-  egk pQg egk 9B4 HwQ KwQ rQk pQg rQk yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ
-  rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ
-  bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw HwQ 8A4 -Q4 wAM NQk NQk NQk uwM NQk uwM
-  wAM xAg HQ8 egk pQg egk wx4 HwQ KwQ rQk pQg rQk Eh0 HwQ KwQ bxQ egk pQg egk
-  vB4 HwQ KwQ rQk pQg rQk lCA HwQ KwQ bxQ egk pQg egk 9B4 HwQ KwQ rQk pQg rQk
-  yh4 HwQ KwQ bxQ egk pQg egk 7R4 HwQ KwQ rQk pQg rQk 0yA HwQ KwQ bxQ egk pQg
-  egk 2B4 HwQ KwQ rQk pQg rQk 0R4 HwQ KwQ bxQ 6xI 6xI 6xI 6xI Kg8 0A4 rQk 8Rw
-  HwQ 8A4 -Q4 wAM IAE YzY PTY hgc 4gc $. $}
+yQ4 $a #Pattern ( yg4 mwg nQg ) $.
+1g4 $a zw ( Tw ( 4w ( SwE mwg Lwk ) ( SwE nQg PQk ) ) ( SwE ( yg4 mwg nQg ) 5Qk ) ) $.
+6Q4 $a #Pattern ( 6g4 mwg ) $.
+9g4 $a #Pattern ( 9w4 mwg nQg ) $.
+Aw8 $a zw ( Tw ( 4w ( SwE mwg 5Qk ) ( SwE nQg RAk ) ) ( SwE ( 9w4 mwg nQg ) Ngk ) ) $.
+Fg8 $a #Pattern ( Fw8 mwg ) $.
+Iw8 $a #Pattern ( JA8 mwg ) $.
+xBA $a #Pattern ( xRA mwg nQg ) $.
+1BA $a #Pattern ( 1RA mwg nQg ) $.
+BBE $a #Pattern ( BRE mwg nQg ) $.
+VBI $a #Pattern ( VRI mwg nQg ) $.
+xBI $a #Pattern ( xRI mwg nQg ) $.
+5BI $a #Pattern ( 5RI mwg nQg ) $.
+VxM $a #Pattern ( WBM mwg nQg ) $.
+JxQ $a #Pattern ( KBQ mwg nQg ) $.
+IxU $a #Pattern ( JBU mwg nQg nwg ) $.
+OxU $a #Pattern ( PBU mwg ) $.
+aRU $a #Pattern ( ahU mwg nQg ) $.
+wRo $a #Pattern ( who mwg ) $.
+Ahw $a #Pattern Axw $.
+Ixw $a #Pattern JBw $.
+2hw $a #Pattern 2xw $.
+hh0 $a #Pattern hx0 $.
+jR0 $a #Pattern jh0 $.
+lB0 $a #Pattern lR0 $.
+mx0 $a #Pattern nB0 $.
+oh0 $a #Pattern ox0 $.
+qR0 $a #Pattern qh0 $.
+sB0 $a #Pattern sR0 $.
+tx0 $a #Pattern uB0 $.
+vh0 $a #Pattern vx0 $.
+wx0 $a zw ( Tw IQE ( SwE ( twM Ngk ) Ngk ) ) $.
+9R0 $a zw ( Tw IQE ( SwE ( 6g4 ( IAQ pwk Axw ) ) RAk ) ) $.
+Xh8 $a #Pattern Xx8 $.
+nR8 $a #Pattern nh8 $.
+qh8 $a zw ( Tw IQE ( SwE ( Fw8 ( vQg ( LAQ 7Ak tgg ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) 0Qg ) ) Lwk ) ) $.
+rR8 $a zw ( Tw IQE ( SwE ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk Axw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) PQk ) ) $.
+rh8 $a zw ( Tw IQE ( SwE ( Fw8 0Qg ) Lwk ) ) $.
+sR8 $a zw ( Tw IQE ( SwE ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk JBw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) PQk ) ) $.
+th8 $a zw ( Tw IQE ( SwE ( PBU ( 5RI vA4 ( KBQ ( LAQ lAk tgg ( IAQ lAk 2xw ) ) ( LAQ 0Ak tgg ( ahU ( 1RA ( IAQ ewk sR0 ) ( 1RA ( IAQ ewk uB0 ) ( 1RA ( IAQ ewk lR0 ) ( 1RA ( IAQ ewk nB0 ) ( 1RA ( IAQ ewk jh0 ) tQ4 ) ) ) ) ) ( WBM ( WBM ( WBM ( WBM ( VRI ( IAQ ewk sR0 ) ( LAQ pwk Wgk ( IAQ pwk vx0 ) ) ) ( VRI ( IAQ ewk uB0 ) ( LAQ pwk Wgk ( IAQ pwk hx0 ) ) ) ) ( VRI ( IAQ ewk lR0 ) ( LAQ pwk Wgk ( IAQ pwk ox0 ) ) ) ) ( VRI ( IAQ ewk nB0 ) ( LAQ pwk Wgk ( IAQ pwk qh0 ) ) ) ) ( JBU ( xRI ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ( LAQ ewk Wgk ( IAQ ewk lR0 ) ) ) ( who ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk Axw ) ) ) ) ( who ( WBM ( WBM ( VRI ( IAQ ewk lR0 ) ( BRE ( LAQ ewk Wgk ( IAQ ewk lR0 ) ) ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ) ) ( VRI ( IAQ ewk nB0 ) ( xRA ( LAQ ewk Wgk ( IAQ ewk nB0 ) ) ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ) ) ) ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) ) ) ) ) ) ) ) ) Ngk ) ) $.
+MzU $a zw ( Tw IQE ( tQM Ngk ( -QM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( PBU ( 5RI vA4 ( KBQ ( LAQ lAk tgg ( IAQ lAk 2xw ) ) ( LAQ 0Ak tgg ( ahU ( 1RA ( IAQ ewk sR0 ) ( 1RA ( IAQ ewk uB0 ) ( 1RA ( IAQ ewk lR0 ) ( 1RA ( IAQ ewk nB0 ) ( 1RA ( IAQ ewk jh0 ) tQ4 ) ) ) ) ) ( WBM ( WBM ( WBM ( WBM ( VRI ( IAQ ewk sR0 ) ( LAQ pwk Wgk ( IAQ pwk vx0 ) ) ) ( VRI ( IAQ ewk uB0 ) ( LAQ pwk Wgk ( IAQ pwk hx0 ) ) ) ) ( VRI ( IAQ ewk lR0 ) ( LAQ pwk Wgk ( IAQ pwk ox0 ) ) ) ) ( VRI ( IAQ ewk nB0 ) ( LAQ pwk Wgk ( IAQ pwk qh0 ) ) ) ) ( JBU ( xRI ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ( LAQ ewk Wgk ( IAQ ewk lR0 ) ) ) ( who ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk Axw ) ) ) ) ( who ( WBM ( WBM ( VRI ( IAQ ewk lR0 ) ( BRE ( LAQ ewk Wgk ( IAQ ewk lR0 ) ) ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ) ) ( VRI ( IAQ ewk nB0 ) ( xRA ( LAQ ewk Wgk ( IAQ ewk nB0 ) ) ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ) ) ) ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) ) ) ) ) ) ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 9w4 ( yg4 ( Fw8 ( vQg ( LAQ 7Ak tgg ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) 0Qg ) ) ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk Axw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) ) ( 6g4 ( IAQ pwk Axw ) ) ) ) ) ) ) $.
+ZjU $a zw ( Tw IQE ( tQM Ngk ( -QM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 9w4 ( yg4 ( Fw8 ( vQg ( LAQ 7Ak tgg ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) 0Qg ) ) ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk Axw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) ) ( 6g4 ( IAQ pwk Axw ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 9w4 ( yg4 ( Fw8 0Qg ) ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk JBw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) ) ( 6g4 ( IAQ pwk Axw ) ) ) ) ) ) ) $.
+jDU $a zw ( Tw IQE ( tQM Ngk ( xwM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 9w4 ( yg4 ( Fw8 ( vQg ( LAQ 7Ak tgg ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) 0Qg ) ) ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk Axw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) ) ( 6g4 ( IAQ pwk Axw ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 9w4 ( yg4 ( Fw8 ( vQg ( LAQ 7Ak tgg ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) 0Qg ) ) ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk Axw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) ) ( 6g4 ( IAQ pwk Axw ) ) ) ) ) ) ) $.
+${ goal $p zw ( Tw IQE ( tQM Ngk ( -QM Ngk ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( PBU ( 5RI vA4 ( KBQ ( LAQ lAk tgg ( IAQ lAk 2xw ) ) ( LAQ 0Ak tgg ( ahU ( 1RA ( IAQ ewk sR0 ) ( 1RA ( IAQ ewk uB0 ) ( 1RA ( IAQ ewk lR0 ) ( 1RA ( IAQ ewk nB0 ) ( 1RA ( IAQ ewk jh0 ) tQ4 ) ) ) ) ) ( WBM ( WBM ( WBM ( WBM ( VRI ( IAQ ewk sR0 ) ( LAQ pwk Wgk ( IAQ pwk vx0 ) ) ) ( VRI ( IAQ ewk uB0 ) ( LAQ pwk Wgk ( IAQ pwk hx0 ) ) ) ) ( VRI ( IAQ ewk lR0 ) ( LAQ pwk Wgk ( IAQ pwk ox0 ) ) ) ) ( VRI ( IAQ ewk nB0 ) ( LAQ pwk Wgk ( IAQ pwk qh0 ) ) ) ) ( JBU ( xRI ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ( LAQ ewk Wgk ( IAQ ewk lR0 ) ) ) ( who ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk Axw ) ) ) ) ( who ( WBM ( WBM ( VRI ( IAQ ewk lR0 ) ( BRE ( LAQ ewk Wgk ( IAQ ewk lR0 ) ) ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ) ) ( VRI ( IAQ ewk nB0 ) ( xRA ( LAQ ewk Wgk ( IAQ ewk nB0 ) ) ( LAQ ewk Wgk ( IAQ ewk uB0 ) ) ) ) ) ( VRI ( IAQ ewk jh0 ) ( LAQ pwk Wgk ( IAQ pwk JBw ) ) ) ) ) ) ) ) ) ) ) ) ) ( wQM Ngk ( wQM Ngk ( twM Ngk ) ( twM Ngk ) ) ( 9w4 ( yg4 ( Fw8 0Qg ) ( JA8 ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk jh0 ) ) ( LAQ pwk tgg ( IAQ pwk JBw ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk lR0 ) ) ( LAQ pwk tgg ( IAQ pwk Xx8 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk sR0 ) ) ( LAQ pwk tgg ( IAQ pwk vx0 ) ) ) ( 5RI ( KBQ ( LAQ ewk tgg ( IAQ ewk nB0 ) ) ( LAQ pwk tgg ( IAQ pwk nh8 ) ) ) ( KBQ ( LAQ ewk tgg ( IAQ ewk uB0 ) ) ( LAQ pwk tgg ( IAQ pwk hx0 ) ) ) ) ) ) ) ) ) ( 6g4 ( IAQ pwk Axw ) ) ) ) ) ) ) $= ( NQk wAM HwQ IAE tQg 1BA VBI VxM JxQ 5BI egk pgk 4g JwU WQk Iw8 wgE KwQ SgE mAE 9R0 uw4 kwk sB0 uwM tx0 lB0 zwk mx0 tA4 xBI wRo BBE xBA IxU aRU jR0 OxU 6wk 2hw 0Ag vAg Fg8 yQ4 6Q4 vh0 9g4 5Ak Ahw Ixw Lgk wx0 th8 PAk MzU Qwk 1g4 4gc qh8 rR8 Aw8 rh8 hh0 oh0 sR8 qR0 nR8 jDU Xh8 hgc ZjU )  AAAAUEZWLBZUBUCEUCUTCRUHEKUDCZKUFCZKUGCZKUICZKUQCZUJFFFFFW NLOLVFCZRGWOLOLWCCZRGHWPLOLWDCRGHWQLOLWFCRGHKOWORZKOWPRZUKWRLOLVICZRGULWPXBXA UMGWQKOWQRXAUNGHWRLOLVJCZRGZHULUOHUPRIJURZBZAWMUSEXERVAVBVCZKEWQRLELWGCRIZKEW RRZLEXCRIZKEWPRLELWICRIZKEWNRLEWSRIZKEWORLEWTRIZJJJJPZVDZXCVEZVGZBZAWMVAVCZXJ LEXDRIXLXMXIXNJJJZJPZVDZXQVGZBZDDWMASZXFASZMXGASDYFYGDWLASZYHMYFDYHYHVLVLQAWL WLNTZVMQAWMXFNTDYFXRASZMXSASDYFYJYIDXPVHSZXQVPSZMYJDYKYLDXHVKSZXOVNSZMYKDYMYN VSVTQXHXOVQTUAQXPXQWATQAWMXRNTDYFYDASZMYEASDYFYOYIDYCVHSZYLMYODYPYLDXTVKSZYBV NSZMYPDYQYRWBWEQXTYBVQTUAQYCXQWATQAWMYDNTVOAXSAWMXHXKYAJPVDXQVGBYEDWHWKWJVR $. $}

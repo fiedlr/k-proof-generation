@@ -72,7 +72,7 @@ rustup default nightly
 ## Proof Generation Step-By-Step
 
 We will use the `transfer.imp` program as an example. There are four inputs:
-1. `examples/csl23/blockchain/imp.k`: The semantics of IMP
+1. `examples/csl23/imp.k`: The semantics of IMP
 2. `IMP`: the main K module of IMP
 3. `examples/csl23/blockchain/transfer.imp`: the transfer program
 4. `proof-transfer`: the folder in which the generated proofs will be placed.
@@ -81,7 +81,7 @@ Following these steps to generate and verify the proof for `transfer.imp`.
 
 1. Generate the proof(s).
 
-   ```python3 -m scripts.prove_symbolic examples/csl23/blockchain/imp.k IMP examples/csl23/blockchain/transfer.imp --output proof-transfer```
+   ```python3 -m scripts.prove_symbolic examples/csl23/imp.k IMP examples/csl23/blockchain/transfer.imp --output proof-transfer```
 
    If you want the proof to be in a single file, add the `--standalone` flag.
 

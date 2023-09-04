@@ -19,11 +19,13 @@ ${
     kore-mu-sorting.0 $e #Positive X ph1 $.
     kore-mu-sorting.1 $e |- ( \imp ( \in-sort X ph0 ) ( \in-sort ph1 ph0 ) ) $.
     kore-mu-sorting.2 $e #Substitution ph2 ph1 ( \inh ph0 ) X $.
-    kore-mu-sorting $a |- ( \in-sort ( \mu X ph1 ) ph0 ) $.$}
+    kore-mu-sorting $a |- ( \in-sort ( \mu X ph1 ) ph0 ) $.
+$}
 
 ${
     kore-valid-to-in-sort.0 $e |- ( \kore-valid ph0 ph1 ) $.
-    kore-valid-to-in-sort $a |- ( \in-sort ph1 ph0 ) $.$}
+    kore-valid-to-in-sort $a |- ( \in-sort ph1 ph0 ) $.
+$}
 
 kore-exists-sorting $a |- ( \in-sort ( \kore-exists ph0 ph1 x ph2 ) ph1 ) $.
 kore-forall-sorting $a |- ( \in-sort ( \kore-forall ph0 ph1 x ph2 ) ph1 ) $.
@@ -36,44 +38,52 @@ ${
     $d x ph3 $.
     sorted-forall-sorting.0 $e |- ( \exists x ( \in-sort x ph1 ) ) $.
     sorted-forall-sorting.1 $e |- ( \imp ( \and ph3 ( \in-sort x ph1 ) ) ( \in-sort ph2 ph0 ) ) $.
-    sorted-forall-sorting $a |- ( \imp ph3 ( \in-sort ( \sorted-forall x ph1 ph2 ) ph0 ) ) $.$}
+    sorted-forall-sorting $a |- ( \imp ph3 ( \in-sort ( \sorted-forall x ph1 ph2 ) ph0 ) ) $.
+$}
 
 ${
     $d x ph0 $.
     $d x ph3 $.
     sorted-exists-sorting.0 $e |- ( \imp ( \and ph3 ( \in-sort x ph1 ) ) ( \in-sort ph2 ph0 ) ) $.
-    sorted-exists-sorting $a |- ( \imp ph3 ( \in-sort ( \sorted-exists x ph1 ph2 ) ph0 ) ) $.$}
+    sorted-exists-sorting $a |- ( \imp ph3 ( \in-sort ( \sorted-exists x ph1 ph2 ) ph0 ) ) $.
+$}
 
 kore-rewrites-sorting $a |- ( \imp ( \and ( \in-sort ph1 ph0 ) ( \in-sort ph2 ph0 ) ) ( \in-sort ( \kore-rewrites ph0 ph1 ph2 ) ph0 ) ) $.
 kore-in-sorting $a |- ( \in-sort ( \kore-in ph0 ph1 ph2 ph3 ) ph1 ) $.
 ${
     kore-mu-sorting-alt.0 $e #Positive X ph1 $.
-    kore-mu-sorting-alt   $a |- ( \in-sort ( \kore-mu ph0 X ph1 ) ph0 ) $.$}
+    kore-mu-sorting-alt   $a |- ( \in-sort ( \kore-mu ph0 X ph1 ) ph0 ) $.
+$}
 
 ${
     $d X ph0 $.
     $d X ph1 $.
-    kore-eventually-sorting $a |- ( \in-sort ( \kore-eventually ph0 ph1 ) ph0 ) $.$}
+    kore-eventually-sorting $a |- ( \in-sort ( \kore-eventually ph0 ph1 ) ph0 ) $.
+$}
 
 ${
     $d X ph0 $.
     $d X ph1 $.
-    kore-weak-eventually-sorting $a |- ( \in-sort ( \kore-weak-eventually ph0 ph1 ) ph0 ) $.$}
+    kore-weak-eventually-sorting $a |- ( \in-sort ( \kore-weak-eventually ph0 ph1 ) ph0 ) $.
+$}
 
 ${
     $d X ph0 $.
     $d X ph1 $.
-    kore-always-sorting $a |- ( \in-sort ( \kore-always ph0 ph1 ) ph0 ) $.$}
+    kore-always-sorting $a |- ( \in-sort ( \kore-always ph0 ph1 ) ph0 ) $.
+$}
 
 kore-all-path-next-sorting $a |- ( \in-sort ( \kore-all-path-next ph0 ph1 ) ph0 ) $.
 kore-circularity-sorting $a |- ( \in-sort ( \kore-circularity ph0 ph1 ) ph0 ) $.
 ${
     $d X Y ph0 $.
-    kore-well-founded-sorting $a |- ( \in-sort ( \kore-well-founded ph0 ) ph0 ) $.$}
+    kore-well-founded-sorting $a |- ( \in-sort ( \kore-well-founded ph0 ) ph0 ) $.
+$}
 
 ${
     $d X Y ph0 $.
-    kore-well-founded-alt-sorting $a |- ( \in-sort ( \kore-well-founded-alt ph0 ) ph0 ) $.$}
+    kore-well-founded-alt-sorting $a |- ( \in-sort ( \kore-well-founded-alt ph0 ) ph0 ) $.
+$}
 
 kore-one-path-reaches-star-sorting $a |- ( \imp ( \in-sort ph1 ph0 ) ( \in-sort ( \kore-one-path-reaches-star ph0 ph1 ph2 ) ph0 ) ) $.
 kore-one-path-reaches-plus-sorting $a |- ( \imp ( \in-sort ph1 ph0 ) ( \in-sort ( \kore-one-path-reaches-plus ph0 ph1 ph2 ) ph0 ) ) $.
